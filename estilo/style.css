@@ -62,7 +62,7 @@ nav>a:hover{
     color: var(--cor0);
 }
 
-img#insta{ 
+img.insta{ 
     width: 18px;  
 }
 main{
