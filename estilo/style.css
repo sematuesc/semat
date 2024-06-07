@@ -114,7 +114,6 @@ main a:hover{
 }
 
 
-
 main img{
     width: 100%;
 }
@@ -128,7 +127,7 @@ div.video{
     margin: 20px -20px 30px -20px;
     padding: 20px;
     position: relative;
-    padding-bottom: 56.3%;
+    padding-bottom: 90%;
 }
 
 div.video>iframe{
