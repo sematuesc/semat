@@ -5,10 +5,10 @@
 :root{
     --cor0: #f3e2f0;
     --cor1: #df3ac0;
-    --cor2: #831f71;
+    --cor2: #8b2c6e;
     --cor3: #621d57;
-    --cor4: #3a1a35;
-    --cor5: #7D1935;
+    --cor4: #fec72f;
+    --cor5: #B02E0C;
 }
 
 *{
@@ -24,34 +24,34 @@ a.externo::after{
     content: '\00A0\1F517';
 }
 header{
-    background-image: linear-gradient(to bottom, var(--cor4), var(--cor2));
+    background-image: linear-gradient(to bottom, var(--cor4), transparent, var(--cor4));
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
 }
 header>h1{
-    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    color:var(--cor2);
     font-size: 3em;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
 header>p{
     font-size: 1.2em;
-    color: white;
+    color: var(--cor2);
     max-width: 600px;
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
 
 }
 nav{
-    background-color: var(--cor5);
+    background-image: linear-gradient(to bottom, var(--cor2), transparent, var(--cor2));
     padding: 15px;
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+    box-shadow: 7px 7px 7px var(--cor4);
 }
 nav>a{
-    color: white;
+    color: var(--cor2);
     font-family: 'Courier New', Courier, monospace;
     border-bottom: 20px;
     width: 10px;
@@ -61,8 +61,8 @@ nav>a{
     transition-duration: 0.3s;
 }
 nav>a:hover{
-    background-color: var(--cor3);
-    color: var(--cor0);
+    background-color: var(--cor4);
+    color: var(--cor2);
 }
 
 
@@ -87,7 +87,7 @@ main h1{
 main h2{
     color: var(--cor0);
     font-size: 1.3em;
-    background-image: linear-gradient(to right, var(--cor5), transparent);
+    background-image: linear-gradient(to right, var(--cor2), transparent);
     text-indent: 8px;
 }
 main p{
@@ -98,14 +98,14 @@ main p{
     line-height: 2em;
 }
 main strong{
-    color: var(--cor4);
+    color: var(--cor2);
     font-weight: bold;
 }
 main a{
     text-decoration: none;
     font-weight: bold;
-    color: var(--cor5);
-    background-color: var(--cor1);
+    color: var(--cor2);
+    background-color: var(--cor4);
     padding: 2px 6px;
 }
 main a:hover{
@@ -123,7 +123,7 @@ main img.pequena{
     margin: auto;
 }
 div.video{
-    background-color: var(--cor5);
+    background-color: var(--cor2);
     margin: 20px -20px 30px -20px;
     padding: 20px;
     position: relative;
@@ -138,7 +138,7 @@ div.video>iframe{
     height: 90%;
 }  
 aside{
-    background-color: var(--cor5);
+    background-color: var(--cor2);
     color: var(--cor0);
     padding: 10px;
     border-radius: 10px;
@@ -146,8 +146,8 @@ aside{
     );
 }
 footer{
-    background-color: var(--cor5);
-    color: white;
+    background-color: var(--cor2);
+    color: var(--cor4);
     text-align: center;
     font-size: 0.8em;
     padding: 5px;
@@ -159,7 +159,7 @@ footer a{
 }
 footer a:hover{
     text-decoration: underline;
-    color: var(--cor1);
+    color: var(--cor5);
 }
 
 
