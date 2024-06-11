@@ -23,8 +23,10 @@ body{
 a.externo::after{
     content: '\00A0\1F517';
 }
+
+
 header{
-    background-image: linear-gradient(to bottom, var(--cor4), transparent, var(--cor4));
+    background-color: var(--cor4);
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
