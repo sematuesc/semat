@@ -51,12 +51,12 @@ header>p{
 
 }
 nav{
-    background-image: linear-gradient(to bottom, var(--cor2), transparent, var(--cor2));
+    background-color: var(--cor2);
     padding: 15px;
     box-shadow: 7px 7px 7px var(--cor4);
 }
 nav>a{
-    color: var(--cor2);
+    color: var(--cor0);
     font-family: 'Courier New', Courier, monospace;
     border-bottom: 20px;
     width: 10px;
@@ -66,8 +66,8 @@ nav>a{
     transition-duration: 0.3s;
 }
 nav>a:hover{
-    background-color: var(--cor4);
-    color: var(--cor2);
+    text-shadow: 3px 3px 5px  black;
+    color: var(--cor4);
 }
 
 
