@@ -159,6 +159,11 @@ aside{
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281
     );
 }
+
+aside ul{
+    list-style: none;
+}
+
 footer{
     background-color: var(--cor2);
     color: var(--cor4);
