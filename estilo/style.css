@@ -51,11 +51,20 @@ header>p{
 
 }
 nav{
-    background-color: var(--cor2);
-    padding: 15px;
+    background-color: var(--cor2);   
     box-shadow: 7px 7px 7px var(--cor4);
 }
-nav>a{
+
+nav>ul{
+    list-style: none;
+}
+
+nav>ul>li{
+    display: inline-block;
+    padding: 15px 5px 15px 5px;
+}
+
+nav>ul>li>a{
     color: var(--cor0);
     font-family: 'Courier New', Courier, monospace;
     border-bottom: 20px;
@@ -65,7 +74,7 @@ nav>a{
     font-weight: bold;
     transition-duration: 0.3s;
 }
-nav>a:hover{
+nav>ul>li>a:hover{
     text-shadow: 3px 3px 5px  black;
     color: var(--cor4);
 }
