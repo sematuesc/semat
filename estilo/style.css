@@ -7,8 +7,8 @@
     --cor1: #df3ac0;
     --cor2: #8b2c6e;
     --cor3: #621d57;
-    --cor4: #fec72f;
-    --cor5: #B02E0C;
+    --cor4: #F8C22E;
+    --cor5: #b02e0c;
 }
 
 *{
@@ -25,15 +25,19 @@ a.externo::after{
 }
 
 
+
 header{
+    background-color: var(--cor4);
     background-image: url('../imagens/banner.jpeg');
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 100vw 200px;
+    background-size: 80vw 200px;  
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
 }
+
+
 header>h1{
     font-family: 'Courier New', Courier, monospace;
     color:var(--cor2);
