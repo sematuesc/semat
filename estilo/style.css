@@ -3,12 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --cor0: #f3e2f0;
+    --cor0: #BBD2F7;
     --cor1: #df3ac0;
-    --cor2: #8b2c6e;
+    --cor2: #6A1B9A;
     --cor3: #621d57;
-    --cor4: #F8C22E;
-    --cor5: #b02e0c;
+    --cor4: #6A1B9A;
+    --cor5: #9575CD;
 }
 
 *{
@@ -18,17 +18,18 @@
 }
 
 body{
-    background-color: var(--cor0);
+    background-image: linear-gradient(to right, var(--cor0) 25%, var(--cor4)75%);
 }
 a.externo::after{
     content: '\00A0\1F517';
 }
 
 
-
 header{
-    background-color: var(--cor4);
-    background-image: url('../imagens/banner.jpeg');
+
+    /* background-color: linear-gradient(to right, var(--cor0), var(--cor4)); */
+
+    background-image: url(../imagens/BANNER\ XVIIISEMAT.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 80vw 200px;  
@@ -108,7 +109,7 @@ main h1{
     text-align: center;
 }
 main h2{
-    color: var(--cor0);
+    color: white;
     font-size: 1.3em;
     background-image: linear-gradient(to right, var(--cor2), transparent);
     text-indent: 8px;
@@ -155,6 +156,14 @@ div.video{
     padding-bottom: 90%;
 }
 
+div.video>p{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    text-align: center;
+    font-weight: bolder;
+}
+
 div.video>iframe{
     position: absolute;
     top: 5%;
@@ -177,7 +186,7 @@ aside ul{
 
 footer{
     background-color: var(--cor2);
-    color: var(--cor4);
+    color: var(--cor0);
     text-align: center;
     font-size: 0.8em;
     padding: 5px;
