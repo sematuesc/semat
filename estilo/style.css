@@ -81,7 +81,7 @@ nav>ul>li>a{
 }
 nav>ul>li>a:hover{
     text-shadow: 3px 3px 5px  black;
-    color: var(--cor4);
+    color: var(--cor0);
 }
 
 
@@ -149,7 +149,7 @@ main img.pequena{
     margin: auto;
 }
 div.video{
-    background-color: var(--cor2);
+    background-color: var(--cor5);
     margin: 20px -20px 30px -20px;
     padding: 20px;
     position: relative;
@@ -182,6 +182,21 @@ aside{
 
 aside ul{
     list-style: none;
+}
+
+aside>ul>li>p{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+aside>ul>li>p>a{
+    color: var(--cor0);
+}
+
+aside>ul>li>p>a:hover{
+    text-shadow: 3px 3px 5px  black;
+    color: var(--cor0);
+    background-color: var(--cor4);
 }
 
 footer{
