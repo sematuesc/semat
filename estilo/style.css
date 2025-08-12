@@ -102,6 +102,17 @@ main{
 
 main div#aviso{
     background-color: #F8C22E;
+    margin-bottom: 2em;
+}
+
+main div#aviso>p{
+    padding: 0px;
+    margin: 0px;
+}
+
+main div#aviso>ul>li>p{
+    padding: 0px;
+    margin: 0px;
 }
 
 main h1{
