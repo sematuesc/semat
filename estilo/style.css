@@ -211,6 +211,10 @@ aside>ul>li>p>a:hover{
     background-color: var(--cor4);
 }
 
+aside.certificado {
+    margin-bottom: 2em;
+}
+
 footer{
     background-color: var(--cor2);
     color: var(--cor0);
