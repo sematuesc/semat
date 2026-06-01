@@ -3,12 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --cor0: #BBD2F7;
+    --cor0: #FF8724;
     --cor1: #df3ac0;
-    --cor2: #6A1B9A;
-    --cor3: #621d57;
-    --cor4: #6A1B9A;
-    --cor5: #9575CD;
+    --cor2: #D44A17;
+    --cor3: #74D2DE;
+    --cor4: #17364B;
+    --cor5: #017282;
 }
 
 *{
@@ -18,7 +18,8 @@
 }
 
 body{
-    background-image: linear-gradient(to right, var(--cor0) 25%, var(--cor4)75%);
+    background-color: var(--cor4);
+    /*background-image: linear-gradient(to right, var(--cor0) 25%, var(--cor4)75%);*/
 }
 a.externo::after{
     content: '\00A0\1F517';
@@ -29,7 +30,7 @@ header{
 
     /* background-color: linear-gradient(to right, var(--cor0), var(--cor4)); */
 
-    background-image: url(../imagens/BANNER\ XVIIISEMAT.jpg);
+    background-image: url(../imagens/BANNERXIXSEMAT.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 80vw 200px;  
@@ -56,7 +57,8 @@ header>p{
 
 }
 nav{
-    background-color: var(--cor2);   
+    background-color: var(--cor4);  
+    /*background-color: linear-gradient(to top, var(--cor4), var(--cor2));*/
     box-shadow: 7px 7px 7px var(--cor4);
 }
 
@@ -81,7 +83,7 @@ nav>ul>li>a{
 }
 nav>ul>li>a:hover{
     text-shadow: 3px 3px 5px  black;
-    color: var(--cor0);
+    color: var(--cor3);
 }
 
 
@@ -116,14 +118,14 @@ main div#aviso>ul>li>p{
 }
 
 main h1{
-    color: var(--cor5);
+    color: var(--cor2);
     text-align: center;
 }
 main h2{
     margin-top: 20px;
     color: white;
     font-size: 1.3em;
-    background-image: linear-gradient(to right, var(--cor2), transparent);
+    background-image: linear-gradient(to right, var(--cor2) 75%, transparent);
     text-indent: 8px;
 }
 main p{
@@ -134,19 +136,19 @@ main p{
     line-height: 2em;
 }
 main strong{
-    color: var(--cor2);
+    color: var(--cor4);
     font-weight: bold;
 }
 main a{
     text-decoration: none;
     font-weight: bold;
-    color: var(--cor5);
+    color: var(--cor3);
     background-color: var(--cor4);
     padding: 2px 6px;
 }
 main a:hover{
     text-shadow: 3px 3px 5px  black;
-    color: var(--cor4);
+    color: var(--cor2);
     background-color: var(--cor5);
 
 }
@@ -184,7 +186,7 @@ div.video>iframe{
     height: 90%;
 }  
 aside{
-    background-color: var(--cor2);
+    background-color: var(--cor4);
     color: var(--cor0);
     padding: 10px;
     border-radius: 10px;
@@ -207,7 +209,7 @@ aside>ul>li>p>a{
 
 aside>ul>li>p>a:hover{
     text-shadow: 3px 3px 5px  black;
-    color: var(--cor0);
+    color: var(--cor3);
     background-color: var(--cor4);
 }
 
@@ -217,7 +219,7 @@ aside.certificado {
 
 footer{
     background-color: var(--cor2);
-    color: var(--cor0);
+    color: var(--cor4);
     text-align: center;
     font-size: 0.8em;
     padding: 5px;
@@ -228,7 +230,7 @@ footer a{
     text-decoration: none;
 }
 footer a:hover{
-    color: var(--cor5);
+    color: var(--cor2);
     background-color: var(--cor4);
 }
 
